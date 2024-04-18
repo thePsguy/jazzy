@@ -498,7 +498,7 @@ pre code {
   }
 }
 
-.aside, .language {
+.aside, div.language {
   padding: 6px 12px;
   margin: 12px 0;
   border-left: $aside_border;
@@ -517,7 +517,7 @@ pre code {
   }
 }
 
-.language {
+div.language {
   border-left: $declaration_language_border;
   .aside-title {
     color: $declaration_title_language_color;
