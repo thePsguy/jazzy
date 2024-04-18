@@ -29,6 +29,9 @@
 * Fix incorrect activesupport usage.  
   [John Fairhurst](https://github.com/johnfairh)
 
+* Update themes to explicitly set styles for `div.language` to fix collision with highlighter element.
+  [Pushkar Sharma](https://github.com/thepsguy)
+
 ## 0.14.4
 
 ##### Breaking
