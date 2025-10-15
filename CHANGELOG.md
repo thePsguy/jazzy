@@ -6,9 +6,86 @@
 
 ##### Enhancements
 
+* None.
+
+##### Bug Fixes
+
+* Don't call extension members that do not need documentation
+  'undocumented'.  
+  [John Fairhurst](https://github.com/johnfairh)
+
+* Work around activesupport vs. concurrent-ruby crash.  
+  [John Fairhurst](https://github.com/johnfairh)
+  [#1414](https://github.com/realm/jazzy/issues/1414)
+
+## 0.15.3
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* None.
+
+##### Bug Fixes
+
+* Don't crash in SourceKitten when the Swift 6 compiler reports
+  educational notes.  
+  [John Fairhurst](https://github.com/johnfairh)
+  [#1399](https://github.com/realm/jazzy/issues/1399)
+
+## 0.15.2
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* Support Swift 6.0 / Xcode 16.0  
+  [John Fairhurst](https://github.com/johnfairh)
+
+##### Bug Fixes
+
+* None.
+
+## 0.15.1
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* None.
+
+##### Bug Fixes
+
+* Restore compatibility with Ruby 2.6  
+  [John Fairhurst](https://github.com/johnfairh)
+  [#1388](https://github.com/realm/jazzy/issues/1388)
+
+## 0.15.0
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* Update Javascript: typeahead.js 1.3.4, KaTeX 0.16.10  
+  [John Fairhurst](https://github.com/johnfairh)
+
+* Support Swift 5.10 with Swift Package Manager projects.  
+  [John Fairhurst](https://github.com/johnfairh)
+  [#1381](https://github.com/realm/jazzy/issues/1381)
+
 * Support documentation of multiple modules in a single website.  Use
   `--modules` or the config-file `modules` for more control.  See the
   README 'Documenting multiple modules' for more details.  
+  [Argjira Mala](https://github.com/argjiramala-tomtom)
+  [Pedro Alcobia](https://github.com/PedroAlcobia-TomTom)
   [John Fairhurst](https://github.com/johnfairh)
   [#564](https://github.com/realm/jazzy/issues/564)
 
